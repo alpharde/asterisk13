@@ -7,7 +7,7 @@
 
 Summary: Asterisk, The Open Source PBX
 Name: asterisk13
-Version: 13.17.2
+Version: 13.19.1
 # reset release to 1 with each version bump
 Release: 3%{?dist}
 License: GPL
@@ -19,6 +19,7 @@ Patch3: voicemail-splitopts-odbcstorage.patch
 Patch4: voicemail-splitopts-imapstorage.patch
 Patch6: lazymembers.patch
 Patch8: ASTERISK-rb3984.patch
+Patch9: increase-max-stack.patch
 
 BuildRoot: %{_tmppath}/asterisk-%{version}-root
 URL: http://www.asterisk.org
@@ -573,6 +574,7 @@ cp apps/app_voicemail.exports.in apps/app_voicemail_imapstorage.exports.in
 %patch2 -p0
 %patch6 -p1
 %patch8 -p0
+%patch9 -p1
 
 %build
 %ifarch x86_64
