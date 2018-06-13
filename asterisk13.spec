@@ -1242,11 +1242,7 @@ cd $RPM_BUILD_DIR
 %{_includedir}/asterisk/xml.h
 %{_includedir}/asterisk/xmldoc.h
 %{_includedir}/asterisk/doxygen/architecture.h
-%{_includedir}/asterisk/doxygen/asterisk-git-howto.h
-%{_includedir}/asterisk/doxygen/commits.h
 %{_includedir}/asterisk/doxygen/licensing.h
-%{_includedir}/asterisk/doxygen/releases.h
-%{_includedir}/asterisk/doxygen/reviewboard.h
 %{_includedir}/asterisk/celt.h
 %{_includedir}/asterisk/format.h
 %{_includedir}/asterisk/format_cap.h
