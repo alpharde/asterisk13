@@ -34,8 +34,6 @@ Provides: asterisk%{astapi}
 BuildRequires: subversion
 Requires: lua
 BuildRequires: lua-devel
-Requires: iksemel
-BuildRequires: iksemel-devel
 Requires: portaudio
 BuildRequires: portaudio-devel
 Requires: neon
@@ -824,7 +822,6 @@ cd $RPM_BUILD_DIR
 %{_libdir}/asterisk/modules/res_calendar.so
 %{_libdir}/asterisk/modules/res_calendar_caldav.so
 %{_libdir}/asterisk/modules/res_calendar_ews.so
-%{_libdir}/asterisk/modules/res_calendar_exchange.so
 %{_libdir}/asterisk/modules/res_calendar_icalendar.so
 %{_libdir}/asterisk/modules/res_chan_stats.so
 %{_libdir}/asterisk/modules/res_clialiases.so
@@ -862,7 +859,6 @@ cd $RPM_BUILD_DIR
 %{_libdir}/asterisk/modules/res_stun_monitor.so
 %{_libdir}/asterisk/modules/res_timing_pthread.so
 %{_libdir}/asterisk/modules/res_timing_timerfd.so
-%{_libdir}/asterisk/modules/chan_motif.so
 %{_libdir}/asterisk/modules/func_speex.so
 %{_libdir}/asterisk/modules/res_pktccops.so
 %{_libdir}/asterisk/modules/res_config_ldap.so
@@ -873,7 +869,6 @@ cd $RPM_BUILD_DIR
 %{_libdir}/asterisk/modules/func_hangupcause.so
 %{_libdir}/asterisk/modules/res_config_sqlite3.so
 %{_libdir}/asterisk/modules/res_http_websocket.so
-%{_libdir}/asterisk/modules/res_xmpp.so
 %{_libdir}/asterisk/modules/res_mwi_devstate.so
 %{_libdir}/asterisk/modules/res_srtp.so
 %{_libdir}/asterisk/modules/app_agent_pool.so
