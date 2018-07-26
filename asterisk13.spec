@@ -9,7 +9,7 @@ Summary: Asterisk, The Open Source PBX
 Name: asterisk13
 Version: 13.19.1
 # reset release to 1 with each version bump
-Release: 3%{?dist}
+Release: 1%{?dist}
 License: GPL
 Group: Utilities/System
 Source: https://downloads.asterisk.org/pub/telephony/asterisk/old-releases/asterisk-%{version}.tar.gz
@@ -1439,6 +1439,13 @@ cd $RPM_BUILD_DIR
 %endif
 
 %changelog
+* Thu Jul 26 2018 Stefano Fancello <stefano.fancello@nethesis.it> - 13.19.1-1
+- Asterisk 13: update from 13.17 to 13.19 - NethServer/dev#5524
+- Remove iksemel requires since it's no more maintained on epel NethServer/dev#5524
+- Update lazymember patch
+- Removed unbuilt docs
+- Add increase-max-stack patch
+
 * Thu Jan 25 2018 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 13.17.2-3-1
 - PBX: Asterisk logs aren't rotated - Bug NethServer/dev#5411
 
