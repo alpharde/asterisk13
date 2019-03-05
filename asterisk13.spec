@@ -7,7 +7,7 @@
 
 Summary: Asterisk, The Open Source PBX
 Name: asterisk13
-Version: 13.24.0
+Version: 13.25.0
 # reset release to 1 with each version bump
 Release: 1%{?dist}
 License: GPL
@@ -1436,7 +1436,9 @@ cd $RPM_BUILD_DIR
 %endif
 
 %changelog
-* Wed Jan 23 2019 Stefano Fancello <stefano.fancello@nethesis.it> - 13.22.0-1
+* Thu Mar 05 2019 Stefano Fancello <stefano.fancello@nethesis.it> - 13.25.0-1
+- Update from 13.24 to 13.25
+* Wed Jan 23 2019 Stefano Fancello <stefano.fancello@nethesis.it> - 13.24.0-1
 - Update from 13.19 to 13.24
 
 * Thu Jul 26 2018 Stefano Fancello <stefano.fancello@nethesis.it> - 13.19.1-1
