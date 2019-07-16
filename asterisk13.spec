@@ -1309,6 +1309,7 @@ cd $RPM_BUILD_DIR
 %{_includedir}/asterisk/res_pjproject.h
 %{_includedir}/asterisk/named_locks.h
 %{_includedir}/asterisk/multicast_rtp.h
+%{_includedir}/asterisk/mwi.h
 
 #
 #  Documentation Subpackage
