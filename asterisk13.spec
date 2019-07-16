@@ -18,7 +18,6 @@ Patch2: voicemail-splitopts.patch
 Patch3: voicemail-splitopts-odbcstorage.patch
 Patch4: voicemail-splitopts-imapstorage.patch
 Patch6: lazymembers.patch
-Patch8: ASTERISK-rb3984.patch
 
 BuildRoot: %{_tmppath}/asterisk-%{version}-root
 URL: http://www.asterisk.org
@@ -570,7 +569,6 @@ cp apps/app_voicemail.exports.in apps/app_voicemail_imapstorage.exports.in
 
 %patch2 -p0
 %patch6 -p1
-%patch8 -p0
 
 %build
 %ifarch x86_64
