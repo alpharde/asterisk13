@@ -656,7 +656,9 @@ cd $RPM_BUILD_DIR
 %{_libdir}/asterisk/modules/app_adsiprog.so
 %{_libdir}/asterisk/modules/app_alarmreceiver.so
 %{_libdir}/asterisk/modules/app_amd.so
+%{_libdir}/asterisk/modules/app_attended_transfer.so
 %{_libdir}/asterisk/modules/app_authenticate.so
+%{_libdir}/asterisk/modules/app_blind_transfer.so
 %{_libdir}/asterisk/modules/app_cdr.so
 %{_libdir}/asterisk/modules/app_celgenuserevent.so
 %{_libdir}/asterisk/modules/app_chanisavail.so
