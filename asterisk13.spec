@@ -1435,6 +1435,9 @@ cd $RPM_BUILD_DIR
 %endif
 
 %changelog
+* Tue Sep 17 2019 Stefano Fancello <stefano.fancello@nethesis.it> - 13.28.1-1
+- Asterisk 13: update to 13.28.1 for security reasons - Bug NethServer/dev#5828
+
 * Mon Sep 02 2019 Stefano Fancello <stefano.fancello@nethesis.it> - 13.28.0-1
 - Update Asterisk to 13.28.0 - NethServer/dev#5787
 - Remove increase-max-stack.patch Patch no more needed since 512 is now default unless Asterisk is compiled with LOW_MEMORY flag
