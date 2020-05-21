@@ -208,7 +208,6 @@ BuildRequires: libopenr2-devel
 BuildRequires: libpri-devel
 BuildRequires: libss7-devel
 BuildRequires: dahdi-tools-devel >= 2.11.1-16
-BuildRequires: dahdi-linux-devel
 # rem via bryan for pbxtended
 #Requires: libopenr2
 #Requires: libpri
