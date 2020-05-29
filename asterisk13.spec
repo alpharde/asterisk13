@@ -49,7 +49,7 @@ Requires: radiusclient-ng
 BuildRequires: radiusclient-ng-devel
 Requires: jack-audio-connection-kit
 BuildRequires: jack-audio-connection-kit-devel
-Requires: libresample
+Requires: libresample >= 0.1.3-33
 BuildRequires: libresample-devel
 Requires: openldap
 BuildRequires: openldap-devel
@@ -348,7 +348,7 @@ Group: Utilities/System
 Provides: asterisk%{astapi}-resample
 #Obsoletes: asterisk-resample
 BuildRequires: libresample-devel
-Requires: libresample
+Requires: libresample >= 0.1.3-33
 Requires: %{name}-core = %{version}-%{release}
 
 %description resample
