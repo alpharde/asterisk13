@@ -9,7 +9,7 @@ Summary: Asterisk, The Open Source PBX
 Name: asterisk13
 Version: 13.29.2
 # reset release to 1 with each version bump
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPL
 Group: Utilities/System
 Source: https://downloads.asterisk.org/pub/telephony/asterisk/old-releases/asterisk-%{version}.tar.gz
@@ -1434,6 +1434,10 @@ cd $RPM_BUILD_DIR
 %endif
 
 %changelog
+* Fri May 29 2020 Stefano Fancello <stefano.fancello@nethesis.it> - 13.29.2-2
+- Use libresample from EPEL - Bug NethServer/dev#6187
+- Build requires dahdi-tools-devel instead of libtonezone-devel - Bug NethServer/dev#6172
+
 * Mon Dec 02 2019 Stefano Fancello <stefano.fancello@nethesis.it> - 13.29.2-1
 - Asterisk 13: update to 13.29.2 - Bug NethServer/dev#5948
 
