@@ -1272,6 +1272,7 @@ cd $RPM_BUILD_DIR
 %{_includedir}/asterisk/res_pjsip_session.h
 %{_includedir}/asterisk/sdp_srtp.h
 %{_includedir}/asterisk/sem.h
+%{_includedir}/asterisk/serializer.h
 %{_includedir}/asterisk/sorcery.h
 %{_includedir}/asterisk/sounds_index.h
 %{_includedir}/asterisk/stasis.h
