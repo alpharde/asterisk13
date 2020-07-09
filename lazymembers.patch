@@ -249,5 +249,3 @@ diff -ur asterisk-13.34.0/apps/app_queue.c asterisk-13.34.0.lazymembers/apps/app
  		}
  	}
  
-Only in asterisk-13.34.0.lazymembers/apps: app_queue.c.orig
-Only in asterisk-13.34.0.lazymembers/apps: app_queue.c.rej
