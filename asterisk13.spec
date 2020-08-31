@@ -1435,6 +1435,9 @@ cd $RPM_BUILD_DIR
 %endif
 
 %changelog
+* Mon Aug 31 2020 Stefano Fancello <stefano.fancello@nethesis.it> - 13.34.0-1
+- Asterisk 13: update to 13.34.0 - NethServer/dev#6223
+
 * Fri May 29 2020 Stefano Fancello <stefano.fancello@nethesis.it> - 13.29.2-2
 - Use libresample from EPEL - Bug NethServer/dev#6187
 - Build requires dahdi-tools-devel instead of libtonezone-devel - Bug NethServer/dev#6172
